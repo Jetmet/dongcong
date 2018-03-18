@@ -1,0 +1,421 @@
+@charset "utf-8";
+
+.icon{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: 7%;
+	left: 6%;
+	z-index: 99999;
+	cursor: pointer;
+	background: url(../images/logo/icon.jpg) no-repeat;
+	background-size: cover;
+}
+.icon a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.section{padding-top:160px;}
+/*首页
+#home{
+	background: url(../images/background1.jpg) no-repeat 78.4% 10%;
+	background-size:cover; 
+}*/
+#home .headImg{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background:url(../images/me.JPG) no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+#home .content{
+	top:120px;
+}
+.myWprd{	color: white;font-size: 20px;line-height: 40px;}
+.container ul li{
+	float: left;
+	margin-right: 3em;
+}
+.container .hi-icon-wrap{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/*个人资料*/
+#aboutMe h2{
+	margin: 0 auto 4%;
+	font-size: 2em;
+}
+#aboutMe .container{
+	text-align: center;
+}
+.message .img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	
+}
+.message .bk{
+	background: url(../images/bk.png) no-repeat;
+	background-size: cover;
+}
+.message .company{
+	background: url(../images/company.png) no-repeat;
+	background-size: cover;
+}
+.message .home{
+	background: url(../images/home.png) no-repeat;
+	background-size: cover;
+}
+.message .age{
+	background: url(../images/age.png) no-repeat;
+	background-size: cover;
+}
+.message h3{
+	color: #fdf210;
+	font-size:26px;
+	float: left;
+	margin-left: 1em;
+	line-height: 40px;
+}
+ .area{
+	width: 50%;
+	float: left;
+	text-align: center;
+
+}
+/*.write p{
+	max-width: 360px;
+	margin: 4% auto;
+	text-align: center;
+	line-height: 40px;
+}*/
+
+/*专业技能*/
+#skill .chart{
+                width: 25%;
+                height: 400px;
+                float: left;
+                /*margin: -50px 0;*/
+                text-align: center;
+                transition: 2s;
+            }
+#skill .container{
+	width: 920px;
+	margin:0 auto;
+}
+#skill .chart{
+	width: 200px;height: 500px;
+	/*background: white;*/
+	color: white;
+	float: left;
+	margin-left: 20px;
+	border-radius: 20px;
+	border:2px solid white;
+	padding: 10px;
+}
+#skill .chart p{
+	line-height: 40px;
+}
+/*工作经历*/
+	#workExperience h2{
+	margin-bottom: 10%;
+	}
+	
+	div.work .box{
+		width: 50%;
+		padding: 3rem 2rem;
+		height: 200px;
+		margin-left: 25%;
+		background: #282e3a;
+		box-shadow: 0px 0px 15px #ccc;
+		-webkit-box-shadow:  0px 0px 15px #ccc;
+		-moz-box-shadow:  0px 0px 15px #ccc;
+		-o-box-shadow:  0px 0px 15px #ccc;
+		border-radius: 8px;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		-o-border-radius: 8px;
+		display: none;
+	}
+	#workExperience a{
+		font-size: 1.6em;
+	}
+
+/*联系我*/
+#contact{
+ 	line-height: 30px;
+ 	background:#f1f2f7;
+	padding:2em 0;
+ }
+#contact h2{
+ 	margin-top:6%;
+ 	margin-bottom:6%;
+ 	font-size: 2em;
+ }
+.footer{
+		text-align: center;
+ }
+.footer p{font-size: 16px;}
+.footer ul{
+	width: 520px;
+		padding: 0;
+		margin: 6em auto ;
+	}
+.footer ul li{
+		display: inline-block;
+		list-style: none;
+		margin-left: 1em;	
+	}
+.footer ul li a{
+	display:inline-block;
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+}
+	.footer ul li a.cb{
+		background: url(../images/logo/cnblog.png) no-repeat;
+		background-size: cover;
+	}
+	.footer ul li a.db{
+		background: url(../images/logo/douban.png) no-repeat;
+		background-size: cover;
+	}
+	.footer ul li a.gh{
+		background: url(../images/logo/github.png) no-repeat;
+		background-size: cover;
+	}
+	.footer ul li a.in{
+		background: url(../images/logo/in.png) no-repeat;
+		background-size: cover;
+	}
+	.footer ul li a.xl{
+		background: url(../images/logo/xinlang.png) no-repeat;
+		background-size: cover;
+	}
+
+.footer ul li a:hover{
+	opacity: 0.3;
+}
+
+/*下载按钮*/
+.footDodl{
+	margin-bottom: 2em;
+}
+a.mydownload{
+	margin: 30px auto;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #2980b9;
+	border-bottom: 2px solid #6ab8ea;
+	border-radius: 6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+}
+a.mydownload:hover{
+	background: #6ab8ea;
+	border-bottom: 4px solid #2980b9;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+
+a.mydownload span{
+	background: url(../images/dold.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	vertical-align:middle;
+	margin-right: 0.5em;
+	background-size: cover;
+}
+.banquan{
+	border-top: 1px solid #fcfcfc;
+	font-family:'Lobster Two';
+	height: 20%;
+	width: 100%;
+
+}
+
+
+/**
+ * 箭头指示元件
+ * -u-arrow
+ */
+.css_sprite01 { background-image:url(../images/css_sprite01.png)!important;  background-repeat: no-repeat!important; } 
+.u-arrow { position: fixed; bottom: 0px; left:50%; z-index: 150; width: 80px; height: 80px; margin-left: -39px;}
+.u-arrow p { position: absolute; top: 50%; left: 50%; margin: -14px 0 0 -25px; width: 50px; height: 28px; background: url(../images/arrow.png) no-repeat 0 0 !important;
+	-webkit-animation: start 1.5s infinite ease-in-out;
+	   -moz-animation: start 1.5s infinite ease-in-out;
+	        animation: start 1.5s infinite ease-in-out;
+}
+
+/**
+ * = animate 动画样式
+ *******************************************************************************************************/
+/*箭头指示引导*/
+@-webkit-keyframes start {
+	0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+	60% {opacity: 1;-webkit-transform: translate(0,0);}
+	100% {opacity: 0;-webkit-transform: translate(0,-8px);}
+}
+@-moz-keyframes start {
+	0%,30% {opacity: 0;-moz-transform: translate(0,10px);}
+	60% {opacity: 1;-moz-transform: translate(0,0);}
+	100% {opacity: 0;-moz-transform: translate(0,-8px);}
+}
+@keyframes start {
+	0%,30% {opacity: 0;transform: translate(0,10px);}
+	60% {opacity: 1;transform: translate(0,0);}
+	100% {opacity: 0;transform: translate(0,-8px);}
+}
+/**
+ * *最上面的导航条显示和隐藏
+ */
+@media screen and (min-width: 960px){
+	#menu{
+		display: none;
+	}
+	/*#home p{
+		font-size: 22px;
+		margin: 1.8em;
+	}*/
+	.container .warp{
+ 	width: 90%;
+ 	}
+ 	.area{
+ 	padding-left: 15em;
+ 	}
+ 	.bottom{
+ 		margin-top:5em; 
+ 	}
+ 	
+}
+@media screen and (min-width: 768px) (max-width: 960px){
+	#menu{
+		display: none;
+	}
+	/*#home p{
+		font-size: 1.2em;
+		margin: 1.8em;
+	}*/
+	.container .warp{
+ 	width: 90%;
+ 	}
+ 	.area{
+ 	padding-left: 10em;
+ 	}
+ 	.bottom{
+ 		margin-top:5em; 
+ 	}
+}
+@media screen and (max-width:768px){
+	#menu{
+		display: block;
+	}
+	/*#home p{
+		font-size:1em;
+		margin: 1.6em;
+	}*/
+	#home img{
+		width: 59px;
+		height: 34px;
+	}
+	#contact h2{
+ 	margin-top:16%;
+ }
+	 .container .warp{
+	 	width: 100%;
+	 }
+	 .area{
+	 	padding-left: 5em;
+	 }
+	 .bottom{
+	 	margin-top:3em; 
+	 }
+	
+}
+@media screen and (max-device-width:400px){
+	.icon{
+		height: 100px;
+		width: 100px;
+	}
+	#menu{
+		display: block;
+	}
+	#home .headImg {
+		width: 350px;
+		height: 350px;
+	}
+	#home p,#contact p{
+		font-size: 3em;
+		line-height: 2em;
+	}
+	#home img{
+		width: 118px;
+		height: 68px;
+	}
+	#pp-nav{display: none;}
+	#aboutMe h2,.wutai h2,.container h2,#contact .footer h2{
+		font-size: 4em;
+		margin: 0 auto 20%;
+	}
+	.wutai p{
+		font-size: 3em;
+		margin: 0 auto 20%;
+	}
+	.area{
+		margin-bottom: 10%;
+		padding-left: 0;
+	}
+	.area .img{
+		height: 100px;
+		width: 100px;
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+	.area h3{
+		font-size: 3em;
+		margin-left: 0; 
+		margin-top: 10px;
+		float: none;
+		display: block;
+
+	}
+	div.work p{
+		width: 100%;
+		font-size: 28px;
+		float: none;
+		height: 100%;
+		padding:4%;
+		margin: 10% auto;
+	}
+	
+	a.mydownload{
+		font-size: 3em;
+	}
+	a.mydownload span{
+		height: 54px;
+		width:  54px;
+	}
+	.footer ul li{
+		margin-left:3rem;
+	}
+	.footer ul li a{
+		width: 100px;
+		height: 100px;
+	}
+	.banquan{
+		font-size: 3rem;
+		padding-top: 2%;
+	}
+}

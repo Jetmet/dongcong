@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        前端工程师在线简历
+    </title>
+    <meta content="董聪的web前端工程师个人简历，前端学习，前端开发" name="description">
+    <meta content="web前端，董聪，web前端个人简历，前端开发，github在线简历" name="keywords">
+    <meta name="viewport" content="user-scalable=no,width=device-width">
+	<meta name="baidu-site-verification" content="Nq0cRA8DsY" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="fragment" content="!">
+    <link rel="shortcut icon" href="images/dragon.icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="plugins/jquery.pagepiling.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:700i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="examples.css" />
+    <link rel="stylesheet" href="css/jquery.rippleria.css">
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <meta name="viewport" content="user-scalable=no">
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery.pagepiling.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+	    	$('#pagepiling').pagepiling({
+	    		menu: '#menu',
+	    		anchors: ['page1', 'page2', 'page3', 'page4','page5'],
+			    sectionsColor: ['#9AB3F8', '#282e3a','#249cc7','#56A36C', '#39C'],
+			    navigation: {
+			    	'position': 'right',
+			   		'tooltips': ['首页', '个人资料', '专业技能', '工作经历','联系我']
+			   	},
+			    afterRender: function(){
+			    	$('#pp-nav').addClass('custom');
+			    },
+			    afterLoad: function(anchorLink, index){
+			    	if(index>1){
+			    		$('#pp-nav').removeClass('custom');
+			    	}else{
+			    		$('#pp-nav').addClass('custom');
+			    	}
+			    }
+			});
+		    $('#showExamples').click(function(e){
+				e.stopPropagation();
+				e.preventDefault();
+				$('#examplesList').toggle();
+			});
+
+			$('html').click(function(){
+				$('#examplesList').hide();
+			});
+          
+	    });
+
+
+    </script>
+
+</head>
+<body>
+	<section class="u-arrow">
+        <p></p>
+    </section>
+	<ul id="menu">
+		<li data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
+		<li data-menuanchor="page2"><a href="#page2">个人资料</a></li>
+		<li data-menuanchor="page3"><a href="#page3">专业技能</a></li>
+		<li data-menuanchor="page4"><a href="#page4">工作经历</a></li>
+		<li data-menuanchor="page5"><a href="#page5">联系我</a></li>
+	</ul>
+
+	<div class="icon"><a href="https://github.com/Jetmet"></a></div>
+	<div id="pagepiling">
+	    <div class="section" id="home">
+                <div class="content">
+                   <div class="headImg"></div>
+                   <div class="myWprd">
+                        <p>满心奋斗的激情，满心激情的执着，满心执着的专研，哪怕一像素的成果！</p><br/>
+                        <div style="line-height: 46px;">
+                            <p>我叫董聪</p>
+                            <p>是一名web前端开发工程师</p>
+                            <p>467772420@qq.com</p>
+                        </div>
+                   </div> 
+                </div>
+	    </div>
+	    <div class="section" id="aboutMe" >
+	    	<div style="margin-bottom: 40px;font-size: 26px;">个人资料</div>
+	    	<div class="container warp">
+                <div style="width: 100%;height: 240px;">
+                <div class="hi-icon-wrap hi-icon-effect-6">
+                    <ul>
+                        <li>
+                            <div>
+                                <a href="#set-6" class="hi-icon hi-icon-cog">Settings</a><br/>
+                                年龄/27
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#set-6" class="hi-icon hi-icon-support">Support</a><br/>
+                                学历/本科
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#set-6" class="hi-icon hi-icon-star">Fav</a><br/>
+                                坐标/杭州
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                               <a href="#set-6" class="hi-icon hi-icon-refresh">Refresh</a><br/>
+                               状态/离职
+                            </div>
+                        </li>
+                    </ul>    
+                </div><br/>
+                </div>
+                <div class="write">
+                            <p>杭州是一个吸引互联人才的好地方，在杭州互联网的浩瀚领域中，</p><p>我们可以挥洒徜徉于其中，于杭州结交知己好友，共同探究、专研更深的技术，同时自己也一如既往学习更多、掌握更多的技术，在前端领域里创出一番天地，此谓终身之目标！</p>
+                        </div>
+                    
+            </div>
+	    </div>
+    <div class="section" id="skill">
+        <div style="margin-bottom: 40px;font-size: 26px;">专业技能</div> 
+            <div class="container">
+                <div class="chart">
+                    <h2>HTML5</h2>
+                    <p>熟练HTML标记语言深刻理解web标准和w3c规范
+            熟练HTML熟悉盒模型和各类布局方式、 能够根据设计图实现页面布局和交互效果
+            对HTML5 移动web应用有一定的了解</p>
+                </div>
+                <div class="chart">
+                    <h2>CSS3</h2>
+                    <p>熟练运用css及css新特性熟悉css3标准，能够解决常见兼容性问题
+                    熟练Bootstrap来实现各种布局特效
+                    熟练使用DIV+CSS进行页面布局、响应式布局等</p>
+                </div>
+                <div class="chart">
+                    <h2>Javascript</h2>
+                    <p>对js有深入的了解，熟练使用js，熟悉oop面向对象编程思想
+                熟悉Ajax、jsonp原理，有ajax交互经验，熟练使用JSON
+                熟练掌握jQuery注重javascript的性能优化</p>
+                </div>
+                <div class="chart">
+                    <h2>VUE</h2>
+                    <p>
+                        正在逐步深入学习vue框架新技术
+                    </p>
+                </div>
+            </div>
+        </div>
+	    <div class="section" id="workExperience">
+        <div style="margin-bottom: 40px;font-size: 26px;">工作经历</div> 
+	    	<div class="container">
+	    		
+		    	<div class="work" style="margin-bottom: 40px;padding: 20px;">
+	                    <p class="box" style="display: block;">2015/7 至今 大连信雅达软件有限公司<br/>
+	                        职位名称：前端开发工程师<br/>
+	                        工作职责：负责公司产品或项目WEB前端开发,根据产品需求
+	                        和UI效果图利用SUBLIME编程软件进行DIV/CSS标准网页制作，
+	                        JS逻辑设计与开发、JQUERY特效编写以及使用插件实现特效，
+	                        解决主流浏览器兼容性问题，对网站用户体验性能进行优化，
+	                        完成产品前端展示效果和交互功能。</p>
+	                    <p class="box">2014/6-2014/12  武汉实习邦科技有限公司<br/>
+	                        职位名称：前端开发工程师兼设计<br/>
+	                        工作职责：负责公司初创项目官网的设计和前端开发与调式，
+	                        从PS设计到切图以及将效果呈现到网站上并配合后端开发人员
+	                        数据紧密链接和呈现。</p>
+	            </div>
+                    <a href="#">。</a>
+                    <a href="#">。</a>
+	            </div>
+	    </div>
+	     <div class="section" id="contact">
+	     	<div class="container">
+	     		<div class="footer ">
+                            <h2>联系我</h2>
+                            <p><span>执着</span><span>无谓</span><span>专研</span></p>
+                            <p>偏执于完美的</p>
+                            <p>有人说，兴趣是最好的老师</p>
+                            <p>而我想说，前端就是我前进的动力</p>
+                            <p>路上得意于良师益友</p>
+                            <p class="footDodl">在前进的道路带我一程吧！让我们一起看到更旷阔的天地</p>
+                            <a href="dongcong.doc" class="mydownload"><span></span>下载我的简历</a>
+                        
+                          <ul>
+                            <li>
+                                <a href="http://www.cnblogs.com/dongcong/" class="cb"></a></li>
+                            <li>
+                                <a href="https://www.douban.com/people/jetmet/" class="db"></a></li>
+                            <li>
+                                <a href="https://github.com/Jetmet" class="gh"></a></li>
+                            <li>
+                                <a href="http://www.linkedin.com/in/聪-董-892145103/" class="in"></a></li>
+                            <li>
+                                <a href="http://weibo.com/u/2410829191/home?wvr=5" class="xl"></a></li>
+                          </ul>
+                </div>
+            </div>
+            <!-- <hr> -->
+            <div class="banquan">
+                CopyRight © 2017 董聪
+            </div>
+		</div>
+	</div>
+</body>
+</html>
